@@ -3,7 +3,7 @@
 
 можливість входження адміна
 
-роль гість: home, cart, products, product, about, contact,checkout
+роль гість: home, cart, products, product, about, contact,
 
 роль адмін:  Dashboard, Manage Products, Create Product, Edit Product, All Orders
 
