@@ -1,0 +1,22 @@
+.header-container{
+    padding: var(--gap-md);
+    padding-top: var(--gap-lg);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--clr-text1);
+}
+.top-header{
+    background-color:var(--clr-primary3);
+    display:flex;
+    justify-content: center;
+    padding:12px;
+
+
+}
+
+.top-header .title{
+    display:flex;
+    gap: var(--gap-xs);
+}
+

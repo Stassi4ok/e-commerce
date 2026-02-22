@@ -10,11 +10,11 @@ export const commonRouter = [
     },
     {
         path:COMMON_ROUTES.CART,
-        element: <div>Crt</div>,
+        element: <div >Cart</div>,
     },
     {
         path:COMMON_ROUTES.CONTACT,
-        element: <div>CONTACT</div>,
+        element: <div >CONTACT</div>,
     },
     {
         path:COMMON_ROUTES.LOGIN,
@@ -49,7 +49,7 @@ export const userRouter = [
     },
     {
         path:USER_ROUTES.MY_ORDERS,
-        element: <div>PROFILE</div>,
+        element: <div>MY_ORDERS</div>,
     },
 ]
 
@@ -60,6 +60,10 @@ export const adminRouter = [
     },
     {
         path:ADMIN_ROUTES.ALL_USERS,
+        element: <div>ALL_USERS</div>,
+    },
+    {
+        path:ADMIN_ROUTES.DASHBOARD,
         element: <div>ALL_USERS</div>,
     }
 ]

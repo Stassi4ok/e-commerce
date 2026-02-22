@@ -19,7 +19,6 @@ function getRoutersByRole(role){
         [ROLES.USER]:[ ...commonRouter,...userRouter],
         [ROLES.ADMIN]: adminRouter
     };
-    console.log(routersByRole[role])
     return routersByRole[role] || [];
 
 }

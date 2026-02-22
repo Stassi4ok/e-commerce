@@ -55,3 +55,20 @@
     font-weight:700
 }
 
+/*Color*/
+
+.txt-clr{
+    color:var(--clr-text) ;
+}
+.txt-clr1{
+    color:var(--clr-text1) ;
+}
+.txt-clr2{
+    color:var(--clr-text2) ;
+}
+
+/*Style*/
+
+.underline{
+    text-decoration: underline;
+}

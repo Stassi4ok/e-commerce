@@ -1,0 +1,11 @@
+.navigation-container{
+    display:flex;
+    gap: var(--gap-sm);
+}
+.nav-link {
+  padding: 5px 0px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid var(--clr-text1);
+}
