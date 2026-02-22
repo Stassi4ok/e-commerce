@@ -1,0 +1,57 @@
+/*heading*/
+.heading-110{
+    font-size: 110px;
+}
+.heading-90{
+    font-size: 90px;
+}
+.heading-64{
+    font-size: 64px;
+}
+.heading-54{
+    font-size: 54px;
+}
+.heading-48{
+    font-size: 48px;
+}
+.heading-36{
+    font-size: 36px;
+}
+.heading-32{
+    font-size: 32px;
+}
+.heading-24{
+    font-size: 24px;
+}
+
+/*Title*/
+.title-24{
+    font-size: 24px;
+}
+.title-20{
+    font-size: 20px;
+}
+.title-16{
+    font-size: 16px;
+}
+.title-14{
+    font-size: 14px;
+}
+.title-12{
+    font-size: 12px;
+}
+
+/*Weight*/
+.txt-regular{
+    font-weight:400
+}
+.txt-medium{
+    font-weight:500
+}
+.txt-SemiBold{
+    font-weight:600
+}
+.txt-bold{
+    font-weight:700
+}
+
