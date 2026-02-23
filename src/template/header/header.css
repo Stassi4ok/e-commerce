@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid var(--clr-text1);
+    background-color: var(--clr-background);
 }
 .top-header{
     background-color:var(--clr-primary3);

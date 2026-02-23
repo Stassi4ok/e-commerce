@@ -64,6 +64,6 @@ export const adminRouter = [
     },
     {
         path:ADMIN_ROUTES.DASHBOARD,
-        element: <div>ALL_USERS</div>,
+        element: <div>DASHBOARD</div>,
     }
 ]

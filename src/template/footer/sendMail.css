@@ -1,0 +1,31 @@
+
+.sendMail-container{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:none;
+    border-radius: 4px;
+    border: 2px solid var(--clr-text);
+    gap: var(--gap-md);
+    
+}
+.sendMail-input{
+    border: none;
+    background-color:var(--clr-primary3);
+    color: var(--clr-text);
+    
+   
+}
+.sendMail-input::placeholder{
+    font-size: 16px;
+    font-weight:400;
+    
+}
+.sendMail-input:focus{
+    outline: none;
+}
+.send-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}

@@ -4,6 +4,7 @@
 }
 .nav-link {
   padding: 5px 0px;
+  border-bottom: 2px solid var(--clr-background);
 }
 
 .nav-link.active {

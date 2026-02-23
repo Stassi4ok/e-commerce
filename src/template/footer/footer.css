@@ -1,0 +1,26 @@
+footer{
+    background-color:var(--clr-primary3);
+    color: var(--clr-text);
+}
+.footer-info{
+    padding: var(--gap-lg);
+    display:flex;
+    justify-content: space-around;
+}
+.bot-footer-container{
+    border-top: 1px solid var(--clr-primary2);
+    color: var(--clr-primary2);
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-content{
+    display:flex;
+    flex-direction:column;
+    gap: var(--gap-md)
+}
+.social-icon-container{
+    display:flex;
+    gap: var(--gap-md)
+}
