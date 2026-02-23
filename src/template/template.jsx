@@ -5,7 +5,7 @@ import './template.css'
 export function Template(){
     return(
         <div className="page">
-            <Header />
+            <Header />   
             <div className="page-content">
                 <Outlet />
             </div>

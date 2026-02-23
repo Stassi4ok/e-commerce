@@ -1,4 +1,5 @@
 import {COMMON_ROUTES, USER_ROUTES, ADMIN_ROUTES} from './routesName'
+import {NotFoundPage,AboutPage} from '../pages/common'
 export const commonRouter = [
     {
         path:COMMON_ROUTES.HOME,
@@ -6,7 +7,7 @@ export const commonRouter = [
     },
     {
         path:COMMON_ROUTES.ABOUT,
-        element: <div>About</div>,
+        element: <AboutPage />,
     },
     {
         path:COMMON_ROUTES.CART,
@@ -22,7 +23,7 @@ export const commonRouter = [
     },
     {
         path:COMMON_ROUTES.NOT_FOUND,
-        element: <div>404</div>,
+        element: <NotFoundPage />,
     },
     {
         path:COMMON_ROUTES.REGISTER,
@@ -36,6 +37,10 @@ export const commonRouter = [
         path:COMMON_ROUTES.WISHLIST,
         element: <div>Wishlist</div>,
     },
+    {
+        path: "*",
+        element: <NotFoundPage />
+    }
 ]
 
 export const userRouter = [
