@@ -1,5 +1,14 @@
 .aboutPage-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-md);
+    align-items: center;
 
+    max-width: 1200px;
+    margin:auto;
+    margin-bottom: var(--gap-xl);
 }
 .our-story{
     display: grid;

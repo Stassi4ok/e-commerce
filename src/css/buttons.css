@@ -1,0 +1,17 @@
+.btn{
+    padding: 15px 30px; 
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--clr-secondary2);
+}
+
+.btn.solid{
+    background-color: var(--clr-secondary2);
+    color: var(--clr-text);
+    border-radius:4px;
+}
+
+.btn.solid:hover{
+    background-color: var(--clr-button2-hover);
+}
