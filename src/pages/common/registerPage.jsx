@@ -24,6 +24,7 @@ export function RegisterPage(){
         id: Date.now().toString(),
         name: formData.name,
         email: formData.email,
+        password:formData.password ,
         role: ROLES.USER,
         }
 
@@ -64,6 +65,8 @@ export function RegisterPage(){
                         placeholder="Password" 
                         onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                         />
+
+                     
                 </div>
                 
                 <div className="register-buttons">
