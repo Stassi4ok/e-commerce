@@ -1,16 +1,12 @@
 import {commonRouter,userRouter,adminRouter} from './routers'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import {Template} from '../template/template'
+import {useContext} from 'react'
+import {CurrencyUser, ROLES} from '../context/userContext'
 
 
 
-const ROLES = {
-    GUEST: 'guest',
-    USER: 'user',
-    ADMIN: 'admin'
-}
 
-const role = ROLES.GUEST
 
 function getRoutersByRole(role){
     
@@ -27,6 +23,9 @@ function getRoutersByRole(role){
 
 
 function MyAppRouter() {
+    const {user} = useContext(CurrencyUser);
+    const role = user.role;
+    console.log(user);
     const router = createBrowserRouter([
         {
             path: "/",
