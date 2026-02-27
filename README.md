@@ -24,3 +24,6 @@ View Orders
 /admin/orders         → All orders
 
 роль користувача: прегляд Home, products, cart, wishlist, checkout , my orders, account, about, contact, 404, product
+
+
+category: Phones Computers SmartWatch Camera headPhones Gaming

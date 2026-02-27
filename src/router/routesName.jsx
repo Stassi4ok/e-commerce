@@ -3,6 +3,7 @@ export const COMMON_ROUTES = {
     LOGIN: '/login',
     REGISTER: '/register',
     PRODUCTS: '/products',
+    PRODUCT: '/product/:id',
     CART: '/cart',
     WISHLIST: '/wishlist',
     ABOUT: '/about',

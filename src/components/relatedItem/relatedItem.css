@@ -1,0 +1,21 @@
+.related-products{
+    display:flex;
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+    justify-content: center;
+
+    margin: var(--gap-md);
+}
+
+.related-decor{
+    width: 20px;
+    height: 40px;
+    background-color: var(--clr-secondary2);
+    border-radius: 4px;
+}
+.related-title{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xs);
+    margin: var(--gap-md);
+}

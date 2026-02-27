@@ -1,0 +1,48 @@
+.count-quantity-container{
+    display: grid;
+    grid-template-columns: 40px 80px 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    
+}
+
+.minus-btn{
+    display: flex;   
+    justify-content: center;
+    align-items:center;
+    border: 1px solid var(--clr-text2);
+    border-radius: 10px 0 0 10px;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    background: none;
+}
+
+.count-container{
+    display: flex;   
+    justify-content: center;
+    align-items:center;
+    border-top: 1px solid var(--clr-text2);
+    border-bottom: 1px solid var(--clr-text2);
+
+    font-size: 20px;
+}
+
+.plus-btn{
+    display: flex;   
+    justify-content: center;
+    align-items:center;
+
+    font-size: 24px;
+
+    background-color: var(--clr-secondary2);
+    color: var(--clr-text);
+
+    border: 1px solid var(--clr-secondary2);
+    border-radius: 0 10px 10px 0;
+
+    cursor: pointer;
+}

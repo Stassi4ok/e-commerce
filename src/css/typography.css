@@ -66,6 +66,9 @@
 .txt-clr2{
     color:var(--clr-text2) ;
 }
+.txt-clr3{
+    color:var(--clr-secondary2) ;
+}
 
 /*Style*/
 
