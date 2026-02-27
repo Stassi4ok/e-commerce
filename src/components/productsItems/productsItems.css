@@ -1,0 +1,10 @@
+.all-products-btn {
+    display: block;
+    margin: 0 auto;
+}
+.products-item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    
+}

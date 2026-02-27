@@ -1,22 +1,23 @@
 import {ProductCard} from '../../pages/common/productsPage'
+import {COMMON_ROUTES} from '../../router/routesName'
 import products from "../../data/products.json";
 import {getRandomItems} from '../../utils/getRandomItems'
 import {useMemo } from "react";
-import './relatedItem.css'
+import {Link } from "react-router";
+import './productsItems.css'
 
-
-export function RelatedItem({ quantity }) {
+export function ProductsItems({quantity}){
 
     const relatedProducts = useMemo(() => {
         return getRandomItems(products, quantity);
     }, [quantity]);
 
     return (
-        <section>
+        <section className="products-item-container">
             <div className="related-title">
                 <div className="related-decor"></div>
                 <p className="title-16 txt-SemiBold txt-clr3">
-                    Related Item
+                    All products
                 </p>
             </div>
 
@@ -28,6 +29,8 @@ export function RelatedItem({ quantity }) {
                     />
                 ))}
             </div>
+            <Link to={COMMON_ROUTES.PRODUCTS}><button className="btn solid all-products-btn">View All Products</button></Link>
+            
         </section>
     );
 }

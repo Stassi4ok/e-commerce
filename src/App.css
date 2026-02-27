@@ -33,5 +33,6 @@
     max-width: 1200px;
     margin:auto;
     margin-bottom: var(--gap-xl);
+    padding: var(--gap-md);
 }
 
