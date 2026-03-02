@@ -30,7 +30,8 @@ export const commonRouter = [
         element: <RegisterPage/>,
     },
     {
-        path:COMMON_ROUTES.PRODUCTS,
+        // support `/products` and `/products/Phones` etc.
+        path: `${COMMON_ROUTES.PRODUCTS}/:category?`,
         element: <ProductsPage />,
     },
     {

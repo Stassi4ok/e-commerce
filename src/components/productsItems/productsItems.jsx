@@ -3,7 +3,7 @@ import {COMMON_ROUTES} from '../../router/routesName'
 import products from "../../data/products.json";
 import {getRandomItems} from '../../utils/getRandomItems'
 import {useMemo } from "react";
-import {Link } from "react-router";
+import {Link } from "react-router-dom";
 import './productsItems.css'
 
 export function ProductsItems({quantity}){

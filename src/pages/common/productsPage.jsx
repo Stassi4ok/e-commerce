@@ -1,6 +1,6 @@
 import products from "../../data/products.json";
 import Heart from "../../assets/SVG/heart.svg?react"
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import './productsPage.css'
 
 export function ProductCard({product}){
@@ -24,11 +24,15 @@ export function ProductCard({product}){
 }
 
 export function ProductsPage(){
+    const { category } = useParams();
 
+    const filteredProducts = category
+    ? products.filter(product => product.category.toLowerCase() === category.toLowerCase())
+    : products;
 
     return(
         <div className="product-catalog">
-            {products.map(product => (<ProductCard product={product} key={product.id} />))}
+            {filteredProducts.map(product => (<ProductCard product={product} key={product.id} />))}
             
         </div>
     );

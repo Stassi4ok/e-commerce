@@ -1,3 +1,4 @@
+import {Categories} from '../../components/categories/categories'
 import homeBannerImg from '../../assets/image/homeBanner.png'
 import {ProductsItems} from '../../components/productsItems/productsItems'
 import {Link} from 'react-router'
@@ -10,9 +11,11 @@ export function HomePage(){
             <section className="banner-container">
                 <Link to="/product/1"><img  src={homeBannerImg} /></Link>
             </section>
-            <section>
-                <ProductsItems quantity={3} />
-            </section>
+            
+            <ProductsItems quantity={3} />
+
+            <Categories/>
+            
         </main>
 
         

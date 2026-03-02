@@ -1,6 +1,7 @@
 .related-products{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;  
+    overflow: hidden;
     gap: var(--gap-lg);
     justify-content: center;
 

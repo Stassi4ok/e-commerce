@@ -2,6 +2,7 @@ export const COMMON_ROUTES = {
     HOME: "/",
     LOGIN: '/login',
     REGISTER: '/register',
+    // links should use the base path; optional category handled in router config
     PRODUCTS: '/products',
     PRODUCT: '/product/:id',
     CART: '/cart',

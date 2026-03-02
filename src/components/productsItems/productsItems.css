@@ -5,6 +5,8 @@
 .products-item-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;  
+    flex-wrap: nowrap;  
+    overflow: hidden; 
     
 }
