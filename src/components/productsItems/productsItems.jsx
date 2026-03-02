@@ -1,4 +1,4 @@
-import {ProductCard} from '../../pages/common/productsPage'
+import {ProductCard} from '../cardProduct/cardProduct'
 import {COMMON_ROUTES} from '../../router/routesName'
 import products from "../../data/products.json";
 import {getRandomItems} from '../../utils/getRandomItems'

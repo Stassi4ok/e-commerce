@@ -1,0 +1,10 @@
+.addTo-Wishlist-icon.active{
+    color:var(--clr-secondary2);
+    fill:var(--clr-secondary2);
+}
+.addTo-Wishlist-Btn{
+    background:none;
+    border:none;
+
+    cursor: pointer;
+}

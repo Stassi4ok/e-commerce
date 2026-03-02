@@ -1,5 +1,5 @@
 import {COMMON_ROUTES, USER_ROUTES, ADMIN_ROUTES} from './routesName'
-import {NotFoundPage,AboutPage,RegisterPage,LoginPage,ProductPage,ProductsPage, HomePage} from '../pages/common'
+import {NotFoundPage,AboutPage,RegisterPage,LoginPage,ProductPage,ProductsPage, HomePage,WishlistPage} from '../pages/common'
 export const commonRouter = [
     {
         path:COMMON_ROUTES.HOME,
@@ -30,7 +30,6 @@ export const commonRouter = [
         element: <RegisterPage/>,
     },
     {
-        // support `/products` and `/products/Phones` etc.
         path: `${COMMON_ROUTES.PRODUCTS}/:category?`,
         element: <ProductsPage />,
     },
@@ -40,7 +39,7 @@ export const commonRouter = [
     },
     {
         path:COMMON_ROUTES.WISHLIST,
-        element: <div>Wishlist</div>,
+        element: <WishlistPage />,
     },
     {
         path: "*",
