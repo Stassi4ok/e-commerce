@@ -12,7 +12,7 @@ export function ProductCard({product}){
                 <div className="icon-container" >
                     <AddToWishlistBtn productId={product.id} />
                 </div>
-                <button className="add-btn">Add to Cart</button>
+                <AddToCartBtn productId={product.id}/>
             </div>
             <div className="dividing-ine"></div>
             
@@ -21,6 +21,44 @@ export function ProductCard({product}){
           
         </article>
     );
+}
+export function AddToCartBtn({ productId }) {
+
+  function addToCart() {
+    const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    const existingProduct = savedCart.find(
+      item => item.productId === productId
+    );
+
+    let updatedCart;
+
+    if (existingProduct) {
+      
+      updatedCart = savedCart.map(item =>
+        item.productId === productId
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      );
+    } else {
+     
+      updatedCart = [
+        ...savedCart,
+        {
+          productId,
+          quantity: 1
+        }
+      ];
+    }
+
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+  }
+
+  return (
+    <button className="add-btn" onClick={addToCart}>
+      Add to Cart
+    </button>
+  );
 }
 
 export function AddToWishlistBtn({ productId }) {
@@ -49,7 +87,7 @@ export function AddToWishlistBtn({ productId }) {
   };
 
   return (
-    <button className="addTo-Wishlist-Btn" onClick={handle}>
+    <button className="addTo-Wishlist-Btn"  onClick={handle}>
       <Heart className={`addTo-Wishlist-icon ${flag ? "active" : ""}`} />
     </button>
   );

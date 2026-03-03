@@ -40,17 +40,18 @@ export function ProductPage() {
                 onChange={setQuantityProduct}  
               />
 
-              <button 
-                className="btn solid title-16 medium"
-              >
-                Buy Now
-              </button>
-
-              <button 
-                className="add-to-wishlist"
-              >
-                <AddToWishlistBtn productId={product.id}/>
-              </button>
+              
+              <AddToCartQuantity 
+                productId={product.id}
+                quantity={quantityProduct}
+              />
+              
+                
+            <AddToWishlistBtn productId={product.id}/>
+                
+              
+                
+              
           </div>
           
         </div>
@@ -62,5 +63,45 @@ export function ProductPage() {
       
       
     </div>
+  );
+}
+
+function AddToCartQuantity({productId, quantity}){
+  function addToCart() {
+    const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    const existingProduct = savedCart.find(
+      item => item.productId === productId
+    );
+
+    let updatedCart;
+
+    if (existingProduct) {
+      
+      updatedCart = savedCart.map(item =>
+        item.productId === productId
+          ? { ...item, quantity: item.quantity + quantity }
+          : item
+      );
+    } else {
+     
+      updatedCart = [
+        ...savedCart,
+        {
+          productId,
+          quantity: quantity
+        }
+      ];
+    }
+
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+  }
+  return(
+    <button 
+      className="btn solid title-16 medium"
+      onClick={addToCart}
+    >
+      Buy Now
+    </button>
   );
 }
