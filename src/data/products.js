@@ -2,6 +2,22 @@ import SamsungGalaxyS24 from './product/SamsungGalaxyS24.png';
 import iPhone15Pro from './product/iPhone15Pro.png';
 import MacBookPro16 from './product/MacBookPro16.png';
 import DellXPS15 from './product/DellXPS15.png';
+import AppleWatchSeries9 from './product/AppleWatchSeries9.png';
+import SamsungGalaxyWatch6 from './product/SamsungGalaxyWatch6.png';
+import CanonEOSR6 from './product/CanonEOSR6.png';
+import NikonZ6II from './product/NikonZ6II.png';
+import SonyWH1000XM5 from './product/SonyWH-1000XM5.png';
+import BoseQuietComfort45 from './product/BoseQuietComfort45.png';
+import PlayStation5 from './product/PlayStation5.png';
+import XboxSeriesX from './product/XboxSeriesX.png';
+import RazerDeathAdderV2 from './product/RazerDeathAdderV2.png';
+import iPhone15Mini from './product/iPhone15Mini.png';
+import HPSpectrex360 from './product/HPSpectrex360.png';
+import ASUSROGZephyrusG15 from './product/ASUSROGZephyrusG15.png';
+import GarminVenu3 from './product/GarminVenu3.png';
+import FujifilmXT5 from './product/FujifilmX-T5.png';
+import NintendoSwitchOLED from './product/NintendoSwitchOLED.png';
+import BeatsStudio3 from './product/BeatsStudio3.png';
 
 
  const products = [
@@ -51,7 +67,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "SmartWatch",
     "price": 399.99,
     "inStock": true,
-    "image": "/product/AppleWatchSeries9.png",
+    "image": AppleWatchSeries9,
     "rating": 4.8,
     "description": "Advanced smartwatch with health tracking, fitness monitoring, and seamless integration with Apple devices."
   },
@@ -61,7 +77,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "SmartWatch",
     "price": 349.99,
     "inStock": true,
-    "image": "/product/SamsungGalaxyWatch6.png",
+    "image": SamsungGalaxyWatch6,
     "rating": 4.6,
     "description": "Stylish smartwatch with AMOLED display, heart rate tracking, and Android compatibility."
   },
@@ -71,7 +87,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Camera",
     "price": 2499.99,
     "inStock": true,
-    "image": "/product/CanonEOSR6.png",
+    "image": CanonEOSR6,
     "rating": 4.9,
     "description": "Full-frame mirrorless camera with fast autofocus, 4K video recording, and excellent low-light capabilities."
   },
@@ -81,7 +97,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Camera",
     "price": 1999.99,
     "inStock": true,
-    "image": "/product/NikonZ6II.png",
+    "image": NikonZ6II,
     "rating": 4.7,
     "description": "Versatile mirrorless camera offering dual processors, high-speed shooting, and professional video features."
   },
@@ -91,7 +107,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "headPhones",
     "price": 349.99,
     "inStock": true,
-    "image": "/product/SonyWH-1000XM5.png",
+    "image": SonyWH1000XM5,
     "rating": 4.9,
     "description": "Industry-leading noise cancelling headphones with premium sound quality and long battery life."
   },
@@ -101,7 +117,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "headPhones",
     "price": 329.99,
     "inStock": true,
-    "image": "/product/BoseQuietComfort45.png",
+    "image": BoseQuietComfort45,
     "rating": 4.8,
     "description": "Comfortable over-ear headphones with powerful noise cancellation and balanced sound profile."
   },
@@ -111,7 +127,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Gaming",
     "price": 499.99,
     "inStock": true,
-    "image": "/product/PlayStation5.png",
+    "image": PlayStation5,
     "rating": 4.9,
     "description": "Next-generation gaming console with ultra-fast SSD, ray tracing graphics, and immersive gameplay experience."
   },
@@ -121,7 +137,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Gaming",
     "price": 499.99,
     "inStock": true,
-    "image": "/product/XboxSeriesX.png",
+    "image": XboxSeriesX,
     "rating": 4.8,
     "description": "Powerful gaming console delivering 4K gaming, fast load times, and access to a vast game library."
   },
@@ -131,7 +147,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Gaming",
     "price": 69.99,
     "inStock": true,
-    "image": "/product/RazerDeathAdderV2.png",
+    "image": RazerDeathAdderV2,
     "rating": 4.7,
     "description": "Ergonomic gaming mouse with high-precision sensor, customizable RGB lighting, and ultra-fast response time."
   },
@@ -141,7 +157,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Phones",
     "price": 799.99,
     "inStock": true,
-    "image": "/product/iPhone15Mini.png",
+    "image": iPhone15Mini,
     "rating": 4.6,
     "description": "Compact and powerful smartphone with vibrant display, advanced camera, and smooth performance."
   },
@@ -151,7 +167,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Computers",
     "price": 1599.99,
     "inStock": true,
-    "image": "/product/HPSpectrex360.png",
+    "image": HPSpectrex360,
     "rating": 4.5,
     "description": "Convertible 2-in-1 laptop with touchscreen display, premium build quality, and flexible usage modes."
   },
@@ -161,7 +177,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "SmartWatch",
     "price": 299.99,
     "inStock": true,
-    "image": "/product/GarminVenu3.png",
+    "image": GarminVenu3,
     "rating": 4.6,
     "description": "Fitness-focused smartwatch with GPS tracking, health monitoring, and long-lasting battery."
   },
@@ -171,7 +187,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Camera",
     "price": 1699.99,
     "inStock": true,
-    "image": "/product/FujifilmX-T5.png",
+    "image": FujifilmXT5,
     "rating": 4.7,
     "description": "Compact mirrorless camera with high-resolution sensor, retro design, and professional image quality."
   },
@@ -181,7 +197,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "headPhones",
     "price": 299.99,
     "inStock": true,
-    "image": "/product/BeatsStudio3.png",
+    "image": BeatsStudio3,
     "rating": 4.5,
     "description": "Wireless headphones with deep bass sound, active noise cancellation, and sleek design."
   },
@@ -191,7 +207,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Gaming",
     "price": 349.99,
     "inStock": true,
-    "image": "/product/NintendoSwitchOLED.png",
+    "image": NintendoSwitchOLED,
     "rating": 4.8,
     "description": "Hybrid gaming console with vibrant OLED display, portable mode, and multiplayer support."
   },
@@ -201,7 +217,7 @@ import DellXPS15 from './product/DellXPS15.png';
     "category": "Gaming",
     "price": 1799.99,
     "inStock": true,
-    "image": "/product/ASUSROGZephyrusG15.png",
+    "image": ASUSROGZephyrusG15,
     "rating": 4.9,
     "description": "High-performance gaming laptop with powerful GPU, fast refresh rate display, and advanced cooling system."
   }
