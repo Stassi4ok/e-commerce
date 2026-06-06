@@ -1,4 +1,4 @@
-import products from "../../data/products.json";
+import products from "../../data/products.js";
 import { useParams } from "react-router-dom";
 import './productsPage.css'
 import {ProductCard} from '../../components/cardProduct/cardProduct'

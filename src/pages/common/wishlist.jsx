@@ -1,4 +1,4 @@
-import products from "../../data/products.json";
+import products from "../../data/products.js";
 import {ProductCard} from "../../components/cardProduct/cardProduct"
 import './wishlist.css'
 

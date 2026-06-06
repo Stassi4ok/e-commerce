@@ -1,6 +1,6 @@
 import {ProductCard} from '../cardProduct/cardProduct'
 import {COMMON_ROUTES} from '../../router/routesName'
-import products from "../../data/products.json";
+import products from "../../data/products.js";
 import {getRandomItems} from '../../utils/getRandomItems'
 import {useMemo } from "react";
 import {Link } from "react-router-dom";

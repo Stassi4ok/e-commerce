@@ -1,5 +1,5 @@
 import {ProductCard} from '../cardProduct/cardProduct'
-import products from "../../data/products.json";
+import products from "../../data/products.js";
 import {getRandomItems} from '../../utils/getRandomItems'
 import {useMemo } from "react";
 import './relatedItem.css'

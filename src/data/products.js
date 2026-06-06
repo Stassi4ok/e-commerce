@@ -1,11 +1,17 @@
-[
+import SamsungGalaxyS24 from './product/SamsungGalaxyS24.png';
+import iPhone15Pro from './product/iPhone15Pro.png';
+import MacBookPro16 from './product/MacBookPro16.png';
+import DellXPS15 from './product/DellXPS15.png';
+
+
+ const products = [
   {
     "id": 1,
     "name": "iPhone 15 Pro",
     "category": "Phones",
     "price": 999.99,
     "inStock": true,
-    "image": "/product/iPhone15Pro.png",
+    "image": iPhone15Pro,
     "rating": 4.8,
     "description": "The latest Apple smartphone featuring A17 Pro chip, titanium design, and advanced camera system with improved low-light performance."
   },
@@ -15,7 +21,7 @@
     "category": "Phones",
     "price": 899.99,
     "inStock": true,
-    "image": "/product/SamsungGalaxyS24.png",
+    "image": SamsungGalaxyS24,
     "rating": 4.7,
     "description": "Powerful Android flagship with high-resolution display, fast processor, and AI-powered camera features."
   },
@@ -25,7 +31,7 @@
     "category": "Computers",
     "price": 2399.99,
     "inStock": true,
-    "image": "/product/MacBookPro16.png",
+    "image": MacBookPro16,
     "rating": 4.9,
     "description": "Professional laptop with large Retina display, Apple silicon performance, and long battery life for demanding workflows."
   },
@@ -35,7 +41,7 @@
     "category": "Computers",
     "price": 1899.99,
     "inStock": true,
-    "image": "/product/DellXPS15.png",
+    "image": DellXPS15,
     "rating": 4.6,
     "description": "Premium Windows laptop with InfinityEdge display, powerful Intel processor, and sleek aluminum design."
   },
@@ -200,3 +206,5 @@
     "description": "High-performance gaming laptop with powerful GPU, fast refresh rate display, and advanced cooling system."
   }
 ]
+
+export default products;

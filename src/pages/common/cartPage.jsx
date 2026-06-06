@@ -1,4 +1,4 @@
-import products from '../../data/products.json'
+import products from '../../data/products.js'
 import {useState} from 'react'
 import Cancel from '../../assets/SVG/cancel.svg?react'
 import './cartPage.css'

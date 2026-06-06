@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import {RelatedItem} from '../../components/relatedItem/relatedItem'
 import {useState} from 'react'
 import {AddToWishlistBtn} from '../../components/cardProduct/cardProduct'
-import products from "../../data/products.json";
+import products from "../../data/products.js";
 import {CountQuantity} from "../../components/countQuantity/countQuantity"
 import Heart from '../../assets/SVG/heart.svg?react'
 
