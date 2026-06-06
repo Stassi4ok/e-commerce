@@ -6,7 +6,7 @@ import AppleWatchSeries9 from './product/AppleWatchSeries9.png';
 import SamsungGalaxyWatch6 from './product/SamsungGalaxyWatch6.png';
 import CanonEOSR6 from './product/CanonEOSR6.png';
 import NikonZ6II from './product/NikonZ6II.png';
-import SonyWH1000XM5 from './product/SonyWH-1000XM5.png';
+import SonyWH1000XM5 from './product/SonyWH1000XM5.png';
 import BoseQuietComfort45 from './product/BoseQuietComfort45.png';
 import PlayStation5 from './product/PlayStation5.png';
 import XboxSeriesX from './product/XboxSeriesX.png';
@@ -15,7 +15,7 @@ import iPhone15Mini from './product/iPhone15Mini.png';
 import HPSpectrex360 from './product/HPSpectrex360.png';
 import ASUSROGZephyrusG15 from './product/ASUSROGZephyrusG15.png';
 import GarminVenu3 from './product/GarminVenu3.png';
-import FujifilmXT5 from './product/FujifilmX-T5.png';
+import FujifilmXT5 from './product/FujifilmXT5.png';
 import NintendoSwitchOLED from './product/NintendoSwitchOLED.png';
 import BeatsStudio3 from './product/BeatsStudio3.png';
 
