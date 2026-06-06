@@ -1,5 +1,5 @@
 export const COMMON_ROUTES = {
-    HOME: "/e-commerce",
+    HOME: "/e-commerce/",
     LOGIN: '/login',
     REGISTER: '/register',
     PRODUCTS: '/products',
